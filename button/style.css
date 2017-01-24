@@ -1,8 +1,8 @@
 * {
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 div {
 	width: 100%;
@@ -29,7 +29,7 @@ button {
 	border-radius: 3px;
 	padding: 7px 13px;
 	-webkit-transition: all 0.2s;
-    transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 button span {
@@ -45,22 +45,22 @@ button:before {
 	display: inline-block;
 	line-height: 0;
 	z-index: 1;
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
-    background: #ffffff;
-    -ms-transform-origin: 50% 50%;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	background: #ffffff;
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
 	-ms-transform: scale(0, 0);
-    -webkit-transform: scale(0, 0);
-    transform: scale(0, 0);
-    -webkit-transition: all 0s;
-    transition: all 0s;
-    opacity: 0.4;
+	-webkit-transform: scale(0, 0);
+	transform: scale(0, 0);
+	-webkit-transition: all 0s;
+	transition: all 0s;
+	opacity: 0.4;
 }
 
 button:after {
@@ -70,16 +70,16 @@ button:after {
 	position: absolute;
 	z-index: 2;
 	top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
-    border-radius: 3px;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	border-radius: 3px;
 	-webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -ms-transform: translate(0,0);
-    -webkit-transform: translate(0,0);
-    transform: translate(0,0);
+	transition: all 0.3s;
+	-ms-transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+	transform: translate(0,0);
 }
 
 button:hover:after {
@@ -102,11 +102,11 @@ button:active:after {
 
 button:active:before {
 	-webkit-transition: all 0.2s;
-    transition: all 0.2s;
+	transition: all 0.2s;
 	-ms-transform: scale(1.2, 1.2);
-    -webkit-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
-    opacity: 0;
+	-webkit-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+	opacity: 0;
 }
 
 .blue {
@@ -115,10 +115,10 @@ button:active:before {
 }
 
 .pulse {
-  background-size: 500% 500%;
-  -webkit-animation: pulse 10s ease infinite;
-  -moz-animation: pulse 10s ease infinite;
-  animation: pulse 10s ease infinite;
+	background-size: 500% 500%;
+	-webkit-animation: pulse 10s ease infinite;
+	-moz-animation: pulse 10s ease infinite;
+	animation: pulse 10s ease infinite;
 }
 
 @-webkit-keyframes pulse {
